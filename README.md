@@ -28,3 +28,5 @@ In the output, you'll find options to open the app in a
 ```bash
    npm test
 ```
+
+> Expo creates a lot of files by default, the ones done by self are only related to: app/(tabs)/index.tsx
