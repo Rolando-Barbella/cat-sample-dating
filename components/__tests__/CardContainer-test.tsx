@@ -4,7 +4,6 @@ import { Animated, PanResponder } from 'react-native';
 import CardContainer from '@/components/CardContainer';
 import { Cat } from '@/components/Card';
 
-// Mocking Animated API as it's hard to test animations in unit tests
 jest.mock('react-native/Libraries/Animated/NativeAnimatedHelper');
 
 const mockCats: Cat[] = [

@@ -15,12 +15,8 @@ describe('Card Component', () => {
     const { getByText, getByTestId } = render(
       <Card cat={mockCat} onLike={onLikeMock} onNope={onNopeMock} />
     );
-
-    // Check if the cat's ID is displayed
     expect(getByText('cat123')).toBeTruthy();
-    // Check if the 'Cat Breed' text is displayed
     expect(getByText('Cat Breed')).toBeTruthy();
-    // Check if the image is displayed
     expect(getByTestId('cat-image')).toBeTruthy();
   });
 
@@ -29,11 +25,8 @@ describe('Card Component', () => {
       <Card cat={mockCat} onLike={onLikeMock} onNope={onNopeMock} />
     );
 
-    // Simulate pressing the like button
     const likeButton = getByTestId('like-button');
     fireEvent.press(likeButton);
-
-    // Ensure the onLike function is called
     expect(onLikeMock).toHaveBeenCalled();
   });
 
@@ -42,11 +35,9 @@ describe('Card Component', () => {
       <Card cat={mockCat} onLike={onLikeMock} onNope={onNopeMock} />
     );
 
-    // Simulate pressing the nope button
     const nopeButton = getByTestId('nope-button');
     fireEvent.press(nopeButton);
 
-    // Ensure the onNope function is called
     expect(onNopeMock).toHaveBeenCalled();
   });
 });

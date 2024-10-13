@@ -4,8 +4,7 @@ import { FontAwesome } from '@expo/vector-icons';
 const SCREEN_HEIGHT = Dimensions.get('window').height;
 const SCREEN_WIDTH = Dimensions.get('window').width;
 
-
-interface Cat {
+export interface Cat {
   id: string;
   url: string;
   breeds?: { origin: string }[];
