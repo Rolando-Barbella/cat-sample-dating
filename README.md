@@ -1,5 +1,7 @@
 # Cat Dating 🐈
 
+A tynder cat app
+
 ![screen](https://github.com/Rolando-Barbella/cat-sample-dating/blob/main/assets/images/jimmy-cat.png)
 
 
