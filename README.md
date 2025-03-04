@@ -1,6 +1,9 @@
 # Cat Dating 🐈
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+![Demo](assets/videos/cat-video.mov)
+
+
+This is an [Expo](https://expo.dev) react native project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
 
 ## Get started
 

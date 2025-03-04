@@ -4,6 +4,8 @@ import { FontAwesome } from '@expo/vector-icons';
 const SCREEN_HEIGHT = Dimensions.get('window').height;
 const SCREEN_WIDTH = Dimensions.get('window').width;
 
+const CAT_NAMES = ['Whiskers', 'Luna', 'Oliver', 'Milo'];
+
 export interface Cat {
   id: string;
   url: string;
@@ -23,7 +25,7 @@ const Card: React.FC<CardProps> = ({ cat, isNext = true, onLike, onNope }) => {
       <Image source={{ uri: cat.url }} style={styles.image} resizeMode={"cover"} testID="cat-image" />
       <View style={styles.infoContainer}>
         <View style={styles.breedInfo}>
-          <Text style={styles.breedName}>{cat.id}</Text>
+          <Text style={styles.breedName}>{CAT_NAMES[Math.floor(Math.random() * CAT_NAMES.length)]}</Text>
           <Text style={styles.country}>{'Cat Breed'}</Text>
         </View>
       </View>
