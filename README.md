@@ -1,5 +1,8 @@
 # Cat Dating 🐈
-A tynder cat app
+
+Cat Dating is the ultimate Tinder-style dating app for feline friends looking for love, companionship, or just a cozy nap buddy. 🐈💕
+
+Built with React Native and Expo, this app delivers a seamless, cross-platform experience—because every cat deserves a soulmate!
 
 This is an [Expo](https://expo.dev) react native project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
 
