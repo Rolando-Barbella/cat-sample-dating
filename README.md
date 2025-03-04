@@ -1,6 +1,6 @@
 # Cat Dating 🐈
 
-![Demo](assets/videos/cat-video.mov)
+![Demo](https://github.com/Rolando-Barbella/cat-sample-dating/assets/videos/cat-video.mov)
 
 
 This is an [Expo](https://expo.dev) react native project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
