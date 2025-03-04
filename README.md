@@ -3,7 +3,7 @@ A tynder cat app
 
 This is an [Expo](https://expo.dev) react native project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
 
-![screen](https://github.com/Rolando-Barbella/cat-sample-dating/blob/main/assets/images/jimmy-cat.png){width=100}
+![screen](https://github.com/Rolando-Barbella/cat-sample-dating/blob/main/assets/images/jimmy-cat.png)
 
 ## Get started
 
